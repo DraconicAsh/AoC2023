@@ -42,7 +42,10 @@ struct Map {
     mapped_tiles: Vec<Point>,
 }
 
+// Why did I come back to read this
 impl Map {
+    // Why is this named this way
+    // Am I even using a graph? Let alone Dijkstra's algorithm
     fn map_dijkstra(&mut self) {
         let start_coords = self.start_coords;
         let mut starts: Vec<(Point, Direction)> = Vec::new();
